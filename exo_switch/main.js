@@ -67,56 +67,56 @@
 
 // EXO 3 Les 2 font la pair
 
-let nombre = parseInt(prompt(`Entrez un nombre : `));
-if (!isNaN(nombre)) {
-    nombre = nombre%2;
+// let nombre = parseInt(prompt(`Entrez un nombre : `));
+// if (!isNaN(nombre)) {
+//     nombre = nombre%2;
 
-    switch (nombre) {
-    case 0:
-        alert(`Votre nombre est paire`)
-        break;
-    default:
-        alert(`Votre nombre est impaire`)
-        break;
-    }
-    
-} else{
-    alert(`Vous n'avez pas entré un nombre.`);
-}
+//     switch (nombre) {
+//     case 0:
+//         alert(`Votre nombre est paire`)
+//         break;
+//     default:
+//         alert(`Votre nombre est impaire`)
+//         break;
+//     }
+
+// } else{
+//     alert(`Vous n'avez pas entré un nombre.`);
+// }
 
 
 
 // EXO 4 Maths "avancée"
 
-let nb1 = prompt(`Entrez un premier nombre`);
-let operation = prompt(`Entrez une opération mathématique : (* - + / )`);
-let nb2 = prompt(`Entrez un second nombre`);
-if (isNaN(nb1) || isNaN(nb2)) {
-    alert(`Une des deux entrées n'est pas un nombre.`);
-}else{
+// let nb1 = prompt(`Entrez un premier nombre`);
+// let operation = prompt(`Entrez une opération mathématique : (* - + / )`);
+// let nb2 = prompt(`Entrez un second nombre`);
+// if (isNaN(nb1) || isNaN(nb2)) {
+//     alert(`Une des deux entrées n'est pas un nombre.`);
+// }else{
 
-    nb1 = parseInt(nb1);
-    nb2 = parseInt(nb2);
+//     nb1 = parseInt(nb1);
+//     nb2 = parseInt(nb2);
 
-    switch (operation) {
-        case `*`:
-            alert(`${nb1} * ${nb2} = ${nb1*nb2}`)
-            break;
+//     switch (operation) {
+//         case `*`:
+//             alert(`${nb1} * ${nb2} = ${nb1*nb2}`)
+//             break;
 
-        case `-`:
-            alert(`${nb1} - ${nb2} = ${nb1-nb2}`)
-            break;
+//         case `-`:
+//             alert(`${nb1} - ${nb2} = ${nb1-nb2}`)
+//             break;
 
-        case `+`:
-            alert(`${nb1} + ${nb2} = ${nb1+nb2}`)
-            break;
+//         case `+`:
+//             alert(`${nb1} + ${nb2} = ${nb1+nb2}`)
+//             break;
 
-        case `/`:
-            alert(`${nb1} / ${nb2} = ${nb1/nb2}`)
-            break;
-        default:
-            alert(`Vous n'avez pas entré une opération mathématiques valide : (* - + / )`)
-            break;
-    }
+//         case `/`:
+//             alert(`${nb1} / ${nb2} = ${nb1/nb2}`)
+//             break;
+//         default:
+//             alert(`Vous n'avez pas entré une opération mathématiques valide : (* - + / )`)
+//             break;
+//     }
 
-}
+// }
