@@ -13,7 +13,7 @@
 // } while (chiffre<10);
 
 // let i = 0;
-// while (i<=10) {
+// while (i==10) {
 //     console.log(i);
 //     i++
 // }
@@ -86,34 +86,20 @@
 // ************************** EXO 7 **************************
 
 // let fruits = [];
-
-// while (fruits.length<8) {
-
+// while (fruits.length<3) {
 //     let nvxFruit = prompt(`Entrez un fruit : `);
 //     fruits.push(nvxFruit.charAt(0).toUpperCase() + nvxFruit.slice(1));
-
 // }
-
 // let i = 0;
-
 // do {
 //     i = 0;
-//     let retrait = prompt(`Désirez vous retirer un fruit ? ${fruits}`);
+//     let retrait = prompt(`Désirez vous retirer un fruit ? ${fruits}`)
 //     retrait = retrait.charAt(0).toUpperCase() + retrait.slice(1);
-
-
 //     fruits.forEach(element => {
-        
-//         if (element.includes(retrait)) {
+//         if (element === ) {
 //             fruits.splice(fruits.indexOf(retrait),1);
 //             i++
-//         }else{
 //         }
-
 //     });
-
-// } while (i==1)
-
+// } while (i>=1)
 // alert(`Voici votre panier : ${fruits}`);
-
-// alert(`salut nous sommes en ${annee} l'année de la merde !`);
